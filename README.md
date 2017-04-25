@@ -14,7 +14,7 @@ To see the rules that this config uses, please read the [config itself](./index.
 ## Installation
 
 ```bash
-npm install stylelint-config-fozzie --save-dev
+npm install @justeat/stylelint-config-fozzie --save-dev
 ```
 
 ## Usage
