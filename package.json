@@ -1,6 +1,6 @@
 {
   "name": "@justeat/stylelint-config-fozzie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shareable Stylelint config for use with Fozzie – Just Eat’s UI Component Framework",
   "keywords": [
     "stylelint",
@@ -11,7 +11,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.je-labs.com/UI/stylelint-config-fozzie"
+    "url": "https://github.com/justeat/stylelint-config-fozzie"
   },
   "main": "index.js",
   "files": [
