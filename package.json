@@ -1,6 +1,6 @@
 {
   "name": "@justeat/stylelint-config-fozzie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shareable Stylelint config for use with Fozzie – Just Eat’s UI Component Framework",
   "keywords": [
     "stylelint",
@@ -36,7 +36,7 @@
     "lint:js": "eslint . --ignore-path .gitignore",
     "lint:md": "remark . --quiet --frail",
     "lint": "npm-run-all --parallel lint:*",
-    "pretest": "npm run lint",
+    "pretest": "yarn run lint",
     "release": "npmpub",
     "test": "jest",
     "travis": "yarn run test",
