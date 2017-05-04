@@ -9,14 +9,9 @@ branches:
 
 language: node_js
 
-# cache node modules
-cache:
-  directories:
-    - node_modules
+node_js: '6'
 
-node_js:
-  - '6'
+cache: yarn
 
-before_install:
-  # remove outdated deps, assists with cache maintenance
-  - npm prune
+script:
+  - yarn travis

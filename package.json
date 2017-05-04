@@ -39,6 +39,7 @@
     "pretest": "npm run lint",
     "release": "npmpub",
     "test": "jest",
+    "travis": "yarn run test",
     "watch": "jest --watch"
   },
   "jest": {
