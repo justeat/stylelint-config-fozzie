@@ -1,6 +1,7 @@
 # stylelint-config-fozzie
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-fozzie.svg)](https://www.npmjs.org/package/stylelint-config-fozzie) [![Build Status](https://travis-ci.org/stylelint/stylelint-config-fozzie.svg?branch=master)](https://travis-ci.org/stylelint/stylelint-config-fozzie)
+[![npm version](https://badge.fury.io/js/%40justeat%2Fstylelint-config-fozzie.svg)](https://badge.fury.io/js/%40justeat%2Fstylelint-config-fozzie)
+[![Build Status](https://travis-ci.org/justeat/stylelint-config-fozzie.svg?branch=master)](https://travis-ci.org/justeat/stylelint-config-fozzie)
 
 > Fozzie shareable stylelint config.
 
