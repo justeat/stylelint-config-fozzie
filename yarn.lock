@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@justeat/eslint-config-fozzie@^11.1.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@justeat/eslint-config-fozzie/-/eslint-config-fozzie-0.1.1.tgz#ff380f435f4d8f25f5c5b3ecbd9240fdf9fe873e"
+"@justeat/eslint-config-fozzie@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@justeat/eslint-config-fozzie/-/eslint-config-fozzie-0.1.2.tgz#5177a3ce35bf98a1c3046542adebee1702e419c7"
   dependencies:
     eslint-config-airbnb-base "^11.1.2"
 
