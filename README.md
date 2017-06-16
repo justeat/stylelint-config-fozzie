@@ -24,7 +24,7 @@ If you've installed `stylelint-config-fozzie` locally within your project, just 
 
 ```json
 {
-  "extends": "stylelint-config-fozzie"
+  "extends": "@justeat/stylelint-config-fozzie"
 }
 ```
 
@@ -32,7 +32,7 @@ The easiest way to do this is by adding the following section to your package.js
 
 ```json
 "stylelint": {
-  "extends": "stylelint-config-fozzie"
+  "extends": "@justeat/stylelint-config-fozzie"
 }
 ```
 
@@ -40,7 +40,7 @@ If you've globally installed `stylelint-config-fozzie` using the `-g` flag, then
 
 ```json
 {
-  "extends": "/absolute/path/to/stylelint-config-fozzie"
+  "extends": "/absolute/path/to/@justeat/stylelint-config-fozzie"
 }
 ```
 
@@ -52,7 +52,7 @@ For example, to change the `indentation` to tabs, turn off the `number-leading-z
 
 ```json
 {
-  "extends": "stylelint-config-fozzie",
+  "extends": "@justeat/stylelint-config-fozzie",
   "rules": {
     "indentation": "tab",
     "number-leading-zero": null
