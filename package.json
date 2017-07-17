@@ -1,6 +1,6 @@
 {
   "name": "@justeat/stylelint-config-fozzie",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Shareable Stylelint config for use with Fozzie – Just Eat’s UI Component Framework",
   "keywords": [
     "stylelint",
@@ -18,19 +18,19 @@
     "index.js"
   ],
   "devDependencies": {
-    "@justeat/eslint-config-fozzie": "^0.1.2",
-    "eslint": "^3.1.1",
+    "@justeat/eslint-config-fozzie": "^1.0.0",
+    "eslint": "^4.2.0",
     "eslint-plugin-import": "^2.2.0",
-    "jest": "^19.0.0",
+    "jest": "^20.0.4",
     "npm-run-all": "^4.0.0",
     "npmpub": "^3.0.1",
     "remark-cli": "^3.0.0",
     "remark-preset-lint-consistent": "^2.0.0",
     "remark-preset-lint-recommended": "^2.0.0",
-    "stylelint": "^7.8.0"
+    "stylelint": "^8.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.8.0"
+    "stylelint": "^8.0.0"
   },
   "scripts": {
     "lint:js": "eslint . --ignore-path .gitignore",
