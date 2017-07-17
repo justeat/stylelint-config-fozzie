@@ -123,12 +123,13 @@ For example, to change the `indentation` to tabs, turn off the `number-leading-z
 -   [selector-list-comma-space-before](https://stylelint.io/user-guide/rules/selector-list-comma-space-before/): Require a single space or disallow whitespace before the commas of selector lists.
 -   [selector-list-comma-space-after](https://stylelint.io/user-guide/rules/selector-list-comma-space-after/): Require a single space or disallow whitespace after the commas of selector lists.
 -   [selector-max-compound-selectors](https://stylelint.io/user-guide/rules/selector-max-compound-selectors/): Limit the number of compound selectors in a selector.
+-   [selector-max-empty-lines](https://stylelint.io/user-guide/rules/selector-max-empty-lines/): Limit the number of adjacent empty lines within selectors.
 -   [selector-max-specificity](https://stylelint.io/user-guide/rules/selector-max-specificity/): Limit the specificity of selectors.
 -   [selector-no-vendor-prefix](https://stylelint.io/user-guide/rules/selector-no-vendor-prefix/): Disallow vendor prefixes for selectors.
 -   [selector-pseudo-element-case](https://stylelint.io/user-guide/rules/selector-pseudo-element-case/): Specify lowercase or uppercase for pseudo-element selectors.
 -   [selector-pseudo-element-colon-notation](https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation/): Specify single or double colon notation for applicable pseudo-elements.
 -   [selector-pseudo-element-no-unknown](https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown/): Disallow unknown pseudo-element selectors.
--   [selector-max-empty-lines](https://stylelint.io/user-guide/rules/selector-max-empty-lines/): Limit the number of adjacent empty lines within selectors.
+-   [selector-type-no-unknown](https://stylelint.io/user-guide/rules/selector-type-no-unknown/): Disallow unknown type selectors.
 -   [shorthand-property-no-redundant-values](https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values/): Disallow redundant values in shorthand properties.
 -   [string-quotes](https://stylelint.io/user-guide/rules/string-quotes/): Specify single or double quotes around strings.
 -   [string-no-newline](https://stylelint.io/user-guide/rules/string-no-newline/): Disallow (unescaped) newlines in strings.
