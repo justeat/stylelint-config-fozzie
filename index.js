@@ -1,8 +1,4 @@
 module.exports = {
-    ignoreFiles: [
-        "**/bower_components/**",
-        "!**/node_modules/@justeat/**"
-    ],
     rules: {
         'at-rule-no-vendor-prefix': true,
         'block-closing-brace-newline-after': ['always', {
