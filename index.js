@@ -31,7 +31,6 @@ module.exports = {
         'function-parentheses-space-inside': 'never',
         'function-whitespace-after': 'always',
         'function-url-quotes': 'always',
-        indentation: 4,
         'keyframe-declaration-no-important': true,
         'length-zero-no-unit': true,
         'max-nesting-depth': 4,
