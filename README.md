@@ -1,4 +1,4 @@
-# stylelint-config-fozzie
+# stylelint-config-fozzie :bear:
 
 [![npm version](https://badge.fury.io/js/%40justeat%2Fstylelint-config-fozzie.svg)](https://badge.fury.io/js/%40justeat%2Fstylelint-config-fozzie)
 [![Build Status](https://travis-ci.org/justeat/stylelint-config-fozzie.svg?branch=master)](https://travis-ci.org/justeat/stylelint-config-fozzie)
