@@ -1,20 +1,16 @@
+language: node_js
+
+node_js:
+  - "6"
+  - "8"
+
+cache: yarn
+
 sudo: false
 
 notifications:
   email: false
 
-git:
-  depth: 1
-
-branches:
-  only:
-    - master
-
-language: node_js
-
-node_js: '6'
-
-cache: yarn
-
 script:
-  - yarn travis
+  - yarn run test
+  - yarn danger
