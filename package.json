@@ -1,6 +1,6 @@
 {
   "name": "@justeat/stylelint-config-fozzie",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Shareable Stylelint config for use with Fozzie – Just Eat’s UI Component Framework",
   "keywords": [
     "stylelint",
@@ -27,7 +27,8 @@
     "npmpub": "^3.0.1",
     "remark-cli": "^4.0.0",
     "remark-preset-lint-recommended": "^3.0.1",
-    "stylelint": "^8.0.0"
+    "stylelint": "^8.0.0",
+    "stylelint-scss": "^2.2.0"
   },
   "peerDependencies": {
     "stylelint": "^8.0.0"
