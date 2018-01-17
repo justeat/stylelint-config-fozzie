@@ -13,4 +13,4 @@ notifications:
 
 script:
   - yarn run test
-  - yarn danger
+  - yarn danger ci
