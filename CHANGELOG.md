@@ -11,6 +11,9 @@ v2.1.0
 ### Added
 -   `stylelint-order` as a dev dependency so we can upgrade Nuxt in Magikarp
 
+### Updated
+-   `stylelint` and 'stylelint-scss' to latest versions
+
 v2.0.1
 ------------------------------
 *January 17, 2018*
