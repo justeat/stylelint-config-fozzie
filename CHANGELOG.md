@@ -4,15 +4,24 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.2.0
+------------------------------
+*March 09, 2020*
+
+### Changed
+-   Updating dependencies
+
+
 v2.1.0
 ------------------------------
-*March 06, 2018*
+*March 06, 2020*
 
 ### Added
 -   `stylelint-order` as a dev dependency so we can upgrade Nuxt in Magikarp
 
-### Updated
+### Changed
 -   `stylelint` and 'stylelint-scss' to latest versions
+
 
 v2.0.1
 ------------------------------
@@ -20,6 +29,7 @@ v2.0.1
 
 ### Added
 -   `stylelint-scss` as a Peer Dependency
+
 
 v2.0.0
 ------------------------------

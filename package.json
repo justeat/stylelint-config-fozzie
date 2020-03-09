@@ -1,7 +1,7 @@
 {
   "name": "@justeat/stylelint-config-fozzie",
-  "version": "2.1.0",
-  "description": "Shareable Stylelint config for use with Fozzie – Just Eat’s UI Component Framework",
+  "version": "2.2.0",
+  "description": "Shareable Stylelint config for use with Fozzie – Just Eats UI Component Framework",
   "keywords": [
     "stylelint",
     "stylelint-config",
@@ -18,21 +18,20 @@
     "index.js"
   ],
   "devDependencies": {
-    "@justeat/eslint-config-fozzie": "1.0.0",
-    "danger": "3.0.2",
-    "eslint": "4.2.0",
-    "eslint-plugin-import": "2.2.0",
-    "jest": "22.0.5",
-    "npm-run-all": "4.0.0",
-    "npmpub": "3.0.1",
-    "remark-cli": "4.0.0",
-    "remark-preset-lint-recommended": "3.0.1",
+    "@justeat/eslint-config-fozzie": "3.4.0",
+    "danger": "9.2.10",
+    "eslint": "6.8.0",
+    "eslint-plugin-import": "2.20.1",
+    "jest": "25.1.0",
+    "npm-run-all": "4.1.5",
+    "remark-cli": "7.0.1",
+    "remark-preset-lint-recommended": "3.0.3",
     "stylelint": "13.2.0",
     "stylelint-order": "4.0.0",
     "stylelint-scss": "3.14.2"
   },
   "peerDependencies": {
-    "stylelint": "8.0.0",
+    "stylelint": "13.2.0",
     "stylelint-scss": "2.2.0"
   },
   "scripts": {
@@ -40,7 +39,6 @@
     "lint:md": "remark . --quiet --frail",
     "lint": "npm-run-all --parallel lint:*",
     "pretest": "yarn run lint",
-    "release": "npmpub",
     "test": "jest",
     "watch": "jest --watch"
   },
